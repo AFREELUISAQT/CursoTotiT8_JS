@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercício 04 - JavaScript</title>
+</head>
+
+<body>
+
+    <header>
+
+        <h1><strong>Exercício 04 - JavaScript</strong></h1>
+        <p>--->Comparando Idade de Pessoas Cadastradas no Formulário</p>
+
+    </header>
+
+    <main>
+
+        <form id="cadastro">
+
+            <p>
+                <label>
+                    <strong>Nome da Pessoa:</strong> <br>
+                    <input type="text" name="nome" id="nome" required size="20" placeholder="Silvio">
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    <strong>Idade da Pessoa:</strong> <br>
+                    <input type="number" name="idade" id="idade" required placeholder="42">
+                </label>
+
+            </p>
+
+            <button id="btn-cadastro" type="submit">CADASTRAR</button>
+
+        </form>
+
+        <div>
+            <h2>Listado de Pessoa(s) Cadastrada(s):</h2>
+            <ol id='listado'></ol>
+        </div>
+
+        <div>
+            <h2>Comparação de Idade:</h2>
+            <p id="comparando"></p>
+        </div>
+
+    </main>
+
+    <footer>
+        <div>
+            <p>&copy; Copyright 2021 - by <strong>Luisa Quinones Torres.</strong> All rights reserved.</p>
+        </div>
+
+    </footer>
+
+    <script src="script.js" defer></script>
+
+</body>
+
+</html>
